@@ -27,3 +27,4 @@ def get_top_regions(data, metric, n=3):
     # Placeholder: Using Country as proxy for regions
     top = data.groupby('Country')[metric].mean().sort_values(ascending=False).head(n)
     return top.to_frame().reset_index()
+# utils.py
