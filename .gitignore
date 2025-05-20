@@ -10,7 +10,8 @@ __pycache__/
 # Data
 data/
 *.csv
-
+notebooks/data
+*.csv
 # IDE
 .vscode/
 .idea/
